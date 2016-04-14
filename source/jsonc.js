@@ -30,6 +30,5 @@ $(function() {
 		converters: {
 			'text jsonc': jsonc_decode
 		},
-		dataType: 'jsonc'
 	});
 });
