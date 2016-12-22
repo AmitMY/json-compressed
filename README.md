@@ -1,6 +1,8 @@
 # JSONc (JSON compressed)
 A compressed way to parse objects/asociative arrays
 
+**Author recommendation: Use gzip compression. Already supported by the browser, very fast, and for json strings has a very good compression rate**
+
 ## How does it work?
 When you have an associative array, it breaks into an array of keys, and array of values.
 
